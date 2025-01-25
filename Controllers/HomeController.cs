@@ -29,7 +29,7 @@ namespace MyWebsite.Controllers
             return View();
         }
 
-        public IActionResult Conatact()
+        public IActionResult Contact()
         {
             return View();
         }
