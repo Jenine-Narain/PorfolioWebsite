@@ -1,6 +1,474 @@
-﻿@{
-    ViewData["Title"] = "Resume";
-}
-<h1>@ViewData["Title"]</h1>
+﻿<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Videograph Template">
+    <meta name="keywords" content="Videograph, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
 
-<p>Have a look at my resume.</p>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="all">
+
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/site.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <!-- Bootstrap CSS (Make sure this loads properly) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+
+    <title>Resume</title>
+
+</head>
+
+
+<body>
+
+
+    
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="~/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="header__nav__option">
+                        <nav class="header__nav__menu mobile-menu">
+                            <ul>
+                                
+                                <li><a class="nav-link" asp-area="" asp-action="Index" asp-controller="Home">Home</a></li>
+                                <li class="active"><a asp-area="" asp-action="Resume" asp-controller="Home">Resume</a></li>
+                                <li><a class="nav-link" asp-area="" asp-action="Projects" asp-controller="Home">Projects</a></li>
+                                <li><a class="nav-link" asp-area="" asp-action="Contact" asp-controller="Home">Contact</a></li>
+
+
+                            </ul>
+                        </nav>
+                        <div class="header__nav__social">
+                            <a href="https://github.com/Jenine-Narain"> <img src="~/img/git.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/jenine-narain-49b961319/"> <img src="~/img/link.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+
+
+    
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option spad" style="background-image: url('@Url.Content("~/img/2.png")'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>Resume</h2>
+                        <div class="breadcrumb__links">
+                            <a class="nav-link" asp-area="" asp-action="Index" asp-controller="Home">Home</a>
+                            <span>Resume</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+
+
+
+
+    <!-- About me Section Begin -->
+    <section class="services spad">
+        <div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="contact__map">
+                    <img src="~/img/2.jpg"                         height="450" style="border:0;" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="contact__form">
+
+                    <h3>
+                        ABOUT ME
+                    </h3>
+
+                    <p>
+
+                        Versatile software developer with a passion for learning
+                        and a strong track record of designing, developing
+                        and implementing digital solutions.
+
+                        <br />
+                        <br />
+
+                        Working in a small digital office servicing a large organization
+                        (50,000+ employees), managing end-to-end responsibilities
+                        across development, implementation, and support.
+
+
+                        <br />
+                        <br />
+                        Equally effective working independently or in team settings,
+                        leveraging a broad skill set to deliver technology solutions
+                        that actually make a difference.
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>    
+</section>
+    <!-- About Me Section End -->
+
+
+    <!-- experience Section Begin -->
+    <section class="about spad">
+        <div class="container">
+            <div class="row">
+                <div class="about__text">
+                    <div class="section-title">
+                        <span>My</span>
+                        <h2>Experience</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="services__item__icon">
+                                    <img src="~/img/transnet.png" alt="">
+                                </div>
+
+                                <h4>
+                                    Analyst - Chief Digital Office
+                                </h4>
+                                <h5 style="color:ghostwhite">
+                                    Transnet SOC Ltd
+
+                                </h5>
+                                <h5 style="color:ghostwhite">
+                                    2024 - Current
+                                </h5>
+                                <br />
+                                <p style="color:ghostwhite">
+                                    <ul style="color:ghostwhite">
+                                        <li>Worked in a small digital office servicing a large organization (50,000+ employees), delivering digital solutions and managing end-to-end responsibilities across development, implementation, and support.</li>
+                                        <li>Engaged with stakeholders to understand business needs and draft technical documentations using UML.</li>
+                                        <li>Utilised agile methodologies, including scrums and sprints.</li>
+                                        <li>Developed custom PowerApps and SharePoint systems, integrating with PowerAutomate and PowerBI.</li>
+                                        <li>Implemented interdepartmental solutions by engaging in user acceptance testing and extensive training to ensure proper change management.</li>
+                                        <li>Provided post-implementation support and serviced ad-hoc requests.</li>
+                                        <li>
+                                            Designed, developed and implemented the:
+                                            <ul>
+                                                <li>Injury on Duty Management System</li>
+                                                <li>General Liability Management System</li>
+                                                <li>OEC Project Tracker</li>
+                                                <li>Safety Summit Application</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                   
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="services__item__icon">
+                                    <img src="~/img/transnet.png" alt="">
+                                </div>
+
+                                <h4>
+                                  Young Professional in Training
+                                </h4>
+                                <h5 style="color:ghostwhite">
+                                    Transnet SOC Ltd
+
+                                </h5>
+                                <h5 style="color:ghostwhite">
+                                    2022 - 2024
+                                </h5>
+                                <br />
+                                <p style="color:ghostwhite">
+                                    <ul style="color:ghostwhite">
+                                        
+                                            <li>Supported stakeholders in defining business requirements, drafting technical documentation, and contributing to agile developments.</li>
+                                            <li>Assisted in developing and implementing digital solutions, including website development assistance.</li>
+                                            <li>Designed, developed and implemented Transnet’s first Digital Collection Management System.</li>
+                                        </ul>
+
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+             
+            </div>
+        </div>
+    </section>
+    <!-- experence  Section End -->
+
+
+    <!-- education Section Begin -->
+    <section class="callto spad set-bg"    style="background-image: url('@Url.Content("~/img/4.png")'); background-size: cover; background-position: center; background-repeat: no-repeat;" >
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="callto__text">
+                        <h2>Bachelor of Science in Computer Science and Information Technology</h2>
+                        <p>
+                            University of KwaZulu Natal
+                            
+                        </p>
+                        <a style="color:ghostwhite">2019 - 2021</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- education Section End -->
+
+
+    <!-- Skills Section Begin -->
+    <section class="services spad">
+        <div class="container">
+
+     
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="services__title">
+                        <div class="section-title">
+
+                            <h2>SKILLS</h2>
+                        </div>
+                        <p>
+                            Skilled in leveraging various programming languages, tools, and methodologies to deliver impactful software solutions, including:
+                        </p>
+                        <a class="primary-btn" asp-area="" asp-action="Projects" asp-controller="Home">SEE MY WORK</a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="services__item__icon">
+                                    <img src="~/img/icons/si-1.png" alt="">
+                                </div>
+                                <h4>Programming & Development</h4>
+                                <p>
+                                    Python, Java, C#, C++, ASP.NET, HTML, JavaScript
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="services__item__icon">
+                                    <img src="/img/icons/si-2.png" alt="">
+                                </div>
+                                <h4>Agile Project Management</h4>
+                                <p>
+                                    Strong understanding of Agile & Scrum methodologies, project management techniques, and change management practices.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="services__item__icon">
+                                    <img src="/img/icons/si-3.png" alt="">
+                                </div>
+                                <h4>Communication & Collaboration</h4>
+                                <p>
+                                    Stakeholder management, requirements gathering, and problem-solving to ensure effective team communication and project success.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="services__item__icon">
+                                    <img src="/img/icons/si-4.png" alt="">
+                                </div>
+                                <h4>Data & Tools</h4>
+                                <p>
+                                    Expertise in data management tools and platforms like SQL, SharePoint, Power Platform, and Visual Studio to optimize workflow and development.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section End -->
+   
+    <!-- certifications Section Begin -->
+    
+
+    <section class="callto spad set-bg" style="background-image: url('@Url.Content("~/img/3.png")'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="row">
+                <div class="section-title" >
+                    <span>My</span>
+                    <h2>Certifications</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h4 style="color:ghostwhite;">Responsive Web Design</h4>
+                  
+                        <br />
+                    
+                    <h6 style="color:ghostwhite">freeCodeCamp </h6>
+                    <p style="color:ghostwhite;font-style: italic">2022</p>
+                    <a class="primary-btn" href="https://www.freecodecamp.org/certification/fcc039973d9-ef52-4e00-b710-b87a14f42dc0/responsive-web-design">OPEN CERTIFICATE</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 style="color:ghostwhite;">Front End Development Libraries</h4>
+
+                    <br />
+
+                    <h6 style="color:ghostwhite">freeCodeCamp </h6>
+                    <p style="color:ghostwhite;font-style: italic">2022</p>
+                    <a class="primary-btn" href="https://www.freecodecamp.org/certification/fcc039973d9-ef52-4e00-b710-b87a14f42dc0/responsive-web-design">OPEN CERTIFICATE</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 style="color:ghostwhite;">JavaScript Algorithms + Data Structures</h4>
+
+                    <br />
+
+                    <h6 style="color:ghostwhite">freeCodeCamp </h6>
+                    <p style="color:ghostwhite;font-style: italic">2022</p>
+                    <a class="primary-btn" href="https://www.freecodecamp.org/certification/fcc039973d9-ef52-4e00-b710-b87a14f42dc0/javascript-algorithms-and-data-structures">OPEN CERTIFICATE</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- certifications Section End -->
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer__top__logo">
+                            <br />
+                            <a href="#"><img src="~/img/logo-2.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer__top__social">
+                            <a href="https://github.com/Jenine-Narain"> <img src="~/img/git.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/jenine-narain-49b961319/"> <img src="~/img/link.png" alt=""></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__option">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="footer__option__item">
+                            <h5>About Me</h5>
+                            <p>
+                                Versatile software developer with expertise in designing, developing and implementing digital solutions..
+                            </p>
+                            <a asp-area="" asp-action="Contact" asp-controller="Home" class="read__more">CONTACT ME <span class="arrow_right"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer__option__item">
+                            <h5>See More</h5>
+                            <p>
+                                <ul>
+
+                                    <li><a class="nav-link" asp-area="" asp-action="Index" asp-controller="Home">Home</a></li>
+                                    <br />
+                                    <li><a class="nav-link" asp-area="" asp-action="Projects" asp-controller="Home">Projects</a></li>
+                                    <br />
+                                    <li><a class="nav-link" asp-area="" asp-action="Contact" asp-controller="Home">Contact</a></li>
+                                </ul>
+
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer__option__item">
+                            <h5>Details</h5>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <p><img src="img/icons/email.png" alt=""> jenine.narain@gmail.com</p>
+                                    </li>
+                                    <li>
+                                        <p><img src="img/icons/phone.png" alt=""> +27 71 401 5939</p>
+                                    </li>
+                                    <li>
+                                        <p><img src="img/icons/pin.png" alt=""> Durban, South Africa</p>
+
+                                    </li>
+                                </ul>
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  
+
+ 
+</body>
+</html>
+
